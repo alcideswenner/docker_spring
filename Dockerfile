@@ -4,8 +4,7 @@
 FROM maven:3-jdk-11
  
  
-# Just echo so we can see, if everything is there :)
-RUN ls -l
+# Just echo so we can see, if everything is there :
  
 # Run Maven build
 RUN mvn clean install
