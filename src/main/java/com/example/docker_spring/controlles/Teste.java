@@ -23,7 +23,7 @@ public class Teste {
 
     @GetMapping(value ="/image",produces  = MediaType.IMAGE_PNG_VALUE)
     public  byte[] getImageWithMediaType() throws IOException {
-        File file=new File("target/image.png");
+        File file=new File("src/main/resources/image.png");
         return Files.readAllBytes(file.toPath());
     }
 }
