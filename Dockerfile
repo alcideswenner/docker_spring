@@ -1,6 +1,3 @@
-# Docker multi-stage build
- 
-# 1. Building the App with Maven
 FROM maven:3-jdk-11
  
 ADD . /docker_spring
