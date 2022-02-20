@@ -1,0 +1,8 @@
+version: '1'
+services:
+  server-api:
+    build: .
+    restart: always
+    ports:
+      - 8080:8080
+    image: server/servere/1.0.0
