@@ -18,7 +18,7 @@ public class Teste {
     
     @GetMapping
     public String teste2(){
-        return "tudo bem?";
+        return "tudo bem? kkkkk";
     }
 
     @GetMapping(value ="/image",produces  = MediaType.IMAGE_PNG_VALUE)
